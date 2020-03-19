@@ -1,0 +1,63 @@
+/* Styles */
+#app {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  margin: 0 100px;
+}
+
+a.active {
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+}
+
+nav {
+  padding: 35px 200px 0 0;
+  float: right;
+}
+.center {
+  margin-left:43%;
+}
+.btnn {
+  border-radius: 30% !important;
+  padding: 20px 30px !important;
+  font-size: 2rem !important;
+  font-weight: 900 !important;
+  margin-bottom: 30px !important;
+}
+h1 {
+  color: rgb(202, 24, 24) !important;
+  letter-spacing: 5px;
+  margin-top: 25px !important;
+}
+.jumbotron {
+  margin-top: 20px;
+}
+.pos {
+  position: relative;
+  bottom: 343px;
+}
+.imagify {
+  width: 350px;
+  height: 420px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.deaths {
+  display: inline-block;
+  float: right;
+  font-size: 2rem;
+}
+.deaths span {
+  color: red;
+  padding: 40px;
+  margin-left: 20px;
+  background-color: rgb(49, 38, 38);
+  font-size: 5rem;
+  position: relative;
+  bottom: 50px;
+}
+.deaths p {
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+}

@@ -1,0 +1,40 @@
+.main {
+    padding: 34px;
+    display: inline-block;
+    vertical-align: top;
+    width: 837px;
+    height: 420px;
+    position: relative;
+    top: 15px;
+    background-image: url("https://images.pexels.com/photos/904177/pexels-photo-904177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.latest {
+    color: black;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+.latest p {
+    position: relative;
+    left: 31%;
+    top: -22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+.headlines {
+    color: black;
+    font-size: 3rem;
+}
+.new {
+    border: 1px solid black;
+}
+.news {
+    border: 1px solid black;
+    height: 250px;
+    margin-top: 20px;
+}
+.news p {
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    padding: 3rem;
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+img {
+    width: 350px !important;
+    height: 420px !important;
+    position: relative !important;
+    top: 15px !important;
+}
+.corona span {
+    position: relative;
+    bottom: 204px;
+    padding: 200px 87.5px;
+    cursor: pointer;
+}

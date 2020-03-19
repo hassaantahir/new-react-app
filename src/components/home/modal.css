@@ -1,0 +1,50 @@
+.modal {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: white;
+    width: 50%;
+    padding: 10rem;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  label {
+      color: rgb(27, 26, 23);
+      font-size: 3rem;
+      text-align: center !important;
+      margin-bottom: 30px !important;
+  }
+  input {
+      border: 1px solid red;
+      font-size: 4rem !important;
+  }
+  .button {
+      text-align: center;
+      background-color: indigo;
+      color: white !important;
+      padding: 10px 30px;
+      border-radius: 10px;
+      font-size: 2rem !important;
+      font-weight: 500 !important;
+      letter-spacing: 5px;
+      display: block;
+      margin-top: 10px !important;
+  }
+  
+  .display-block {
+    display: block !important;
+  }
+  
+  .display-none {
+    display: none !important;
+  }

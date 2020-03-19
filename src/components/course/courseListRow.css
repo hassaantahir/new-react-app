@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+.compo {
+    background-image: url("https://images.pexels.com/photos/3648850/pexels-photo-3648850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    margin: 10px 0 10px 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    min-height: 200px;
+}
+.compo a {
+    color: #ffff !important;
+    font-size: 3rem;
+}
+.compo * {
+    color: #ffff !important;
+}
+.in{
+    display: inline-block;
+}
+* {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.bottom {
+    position: relative;
+    top: 143px;
+}
+.right {
+    float: right;
+}
+.padleft {
+    margin-left: 20px !important;
+}
+.padleftt {
+    margin-left: 70px !important;
+}
+.padleft span {
+    color: aqua !important;
+    padding-left: 10px;
+    font-size: 2rem;
+}
+.buton {
+    position: relative;
+    bottom: 15px;
+}
+.chez {
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: black !important;
+    border-radius: 30px 0 0 30px;
+    box-shadow: inset 0 0 6px #000000;
+}
+.time {
+    background-color: rgb(189, 15, 15);
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    color: blanchedalmond;
+}
+.compo img {
+    height: 32px !important;
+    width: 30px !important;
+    position: absolute !important;
+    right: 10px !important;
+    top: 10px !important;
+}
+.circle {
+    border: 1.7px solid #eee;
+    height: 50px;
+    width: 50px;
+    padding: 24px !important;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    display: inline-block;
+}

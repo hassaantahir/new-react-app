@@ -1,0 +1,52 @@
+.maincontainer {
+    position: relative;
+    width: 350px;
+    height: 420px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #ffc728;
+    color: #333;
+}
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #ffff;
+    color: #333;
+    transform: rotateY(180deg);
+}
+.thecard:hover {
+    transform: rotateY(180deg);
+}
+.thefront p {
+    font-size: 2rem;
+    position: absolute;
+    left: 35%;
+    bottom: 50%;
+}
+.thefront span {
+    color: rgb(8, 103, 245);
+}
+.tt {
+    font-size: 2rem;
+    position: absolute;
+    left: 35%;
+    bottom: 40% !important;
+}
+.react-calendar {
+    height: 420px !important;
+}
