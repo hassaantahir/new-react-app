@@ -9,9 +9,6 @@ class News extends React.Component {
             news: [{title: 'Loading.....'}],
             num: 0
         };
-    }
-
-    componentDidMount() {
         const url = 'http://newsapi.org/v2/top-headlines?' +
         'country=us&' +
         'apiKey=776419a7a5bb442cbe5b47212aecb9df';
@@ -28,7 +25,9 @@ class News extends React.Component {
                         news: x
                     });
                 });
-        
+    }
+
+    componentDidMount() {        
         this.interval = setInterval(() => {
             if(this.state.num > 18) {
                 this.setState({num: 0});
