@@ -25,7 +25,9 @@ class Quote extends React.Component {
     }
     componentDidMount() {
         const y = localStorage.getItem('text');
-        this.setState({text: y});
+        if(y){
+            this.setState({text: y});
+        }
     }
 
     render() {

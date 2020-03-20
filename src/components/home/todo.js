@@ -20,12 +20,14 @@ class Todo extends React.Component {
     }
     updateValue(event) {
         let x = event.target.value;
-        localStorage.setItem('num', x);
+        window.sessionStorage.setItem('num', x);
         this.setState({num: x});
     }
     componentDidMount() {
-        const y = localStorage.getItem('num');
-        this.setState({num: y});
+        const y = window.sessionStorage.getItem('num');
+        if(y){
+            this.setState({num: y});
+        }
     }
 
     render() {
