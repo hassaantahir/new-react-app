@@ -12,22 +12,26 @@ class Todo extends React.Component {
         this.hideModel = this.hideModel.bind(this);
         this.showModel = this.showModel.bind(this);
     }
-    showModel() {
-         this.setState({show: true});
-    }
-    hideModel() {
-        this.setState({show: false});
-    }
-    updateValue(event) {
-        let x = event.target.value;
-        window.sessionStorage.setItem('num', x);
-        this.setState({num: x});
-    }
     componentDidMount() {
         const y = window.sessionStorage.getItem('num');
         if(y){
             this.setState({num: y});
         }
+    }
+    showModel() {
+         this.setState({show: true});
+    }
+    hideModel() {
+        this.setState({show: false});
+        const y = window.sessionStorage.getItem('num');
+        if(y){
+            this.setState({num: y});
+        }
+    }
+    updateValue(event) {
+        let x = event.target.value;
+        window.sessionStorage.setItem('num', x);
+        this.setState({num: x});
     }
 
     render() {
@@ -41,15 +45,15 @@ class Todo extends React.Component {
                         </p>
                     </div>
                 </div>
-                <Modal show={this.state.show} handleClose={this.hideModel}>
-                    <form>
+                <Modal show={this.state.show}>
+                    <div>
                         <label>
                             Type the Number of your Pending Tasks:
                         </label>
                         <input type="number" onChange={this.updateValue} />
                         
                         <button className="button" onClick={this.hideModel}>Save</button>
-                    </form>
+                    </div>
                 </Modal>
             </div>
         );
